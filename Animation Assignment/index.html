@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Assignment</title>
+</head>
+<style>
+    .div1{
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        animation-name: Bano-Qabil-2024;
+        animation-duration: 2.8s;
+        position: absolute;
+        animation-iteration-count: infinite;
+        transition: height 1.5s;
+        transition-property: height;
+        transition-duration: 5s;
+        transition-timing-function: ease-in-out;
+    }
+    @keyframes Bano-Qabil-2024{
+        0%{background-color: grey; left: 0%; top: 50%}
+        25%{background-color: blue; left: 50%; top: 0%; }
+        50%{background-color: orange; left: 100%; top: 50%}
+        75%{background-color: pink; left: 50%; top: 100%}
+        100%{background-color: purple; left: 0%; top: 50%}
+    }
+    .div2{
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        animation-name: Bano-Qabil;
+        animation-duration: 3.8s;
+        position: absolute;
+        animation-iteration-count: infinite;
+        transition: height 1.5s;
+        transition-property: height;
+        transition-duration: 5s;
+        transition-timing-function: ease-in-out;
+    }
+    @keyframes Bano-Qabil{
+        0%{background-color: purple; left: 0%; top: 50%}
+        25%{background-color: pink; left: 50%; top: 0%;}
+        50%{background-color: orange; left: 100%; top: 50%}
+        75%{background-color: blue; left: 50%; top: 100%}
+        100%{background-color: grey; left: 0%; top: 50%}
+    }
+
+</style>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+</body>
+</html>
